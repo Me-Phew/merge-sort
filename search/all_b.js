@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['🚀_20użycie_20a_0',['&lt;a name=&quot;usage&quot;&gt;🚀 Użycie&lt;/a&gt;',['../md__r_e_a_d_m_e.html#autotoc_md2',1,'']]]
+  ['w_20c_0',['Implementacja algorytmu sortowania przez scalanie w C++',['../md_README.html#autotoc_md0',1,'']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['zaawansowane_20szablon_0',['Programowanie zaawansowane - szablon',['../md__r_e_a_d_m_e.html#autotoc_md0',1,'']]]
+  ['readme_0',['README',['../md_README.html',1,'']]],
+  ['run_1',['run',['../classApp.html#a8d27eeb51b813760dc39425d7a9a37e2',1,'App']]]
 ];
