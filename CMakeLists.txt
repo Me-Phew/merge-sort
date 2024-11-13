@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(ProjectName)
+project(MergeSort)
 
 set(SOURCES src/main.cpp)
 
-add_executable(ProjectName ${SOURCES})
+add_executable(MergeSort ${SOURCES})
 
 # Compile with all warnings, treat warnings as errors
 if (MSVC)
