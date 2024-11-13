@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.10)
 
 project(MergeSort)
 
-set(SOURCES src/main.cpp)
+include_directories(src/app src/merge_sorter)
+
+set(SOURCES src/main.cpp src/app/app.cpp src/merge_sorter/merge_sorter.cpp)
 
 add_executable(MergeSort ${SOURCES})
 
