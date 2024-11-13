@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['programowanie_20zaawansowane_20szablon_0',['Programowanie zaawansowane - szablon',['../md_README.html#autotoc_md0',1,'']]]
+  ['name_20license_20licencja_20a_0',['&lt;a name=&quot;license&quot;&gt; Licencja&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]]
 ];
