@@ -14,6 +14,8 @@
 
 #include "app.hpp"
 #include "../merge_sorter/merge_sorter.hpp"
+#include <array_utils/array_utils.hpp>
+#include <random_number_generator/random_number_generator.hpp>
 
 std::istream& operator>>(std::istream& iStream, MenuOption& menuOption) {
   int num;
@@ -34,11 +36,14 @@ int App::mainMenu() {
 
     std::cout << "---ZARZĄDZANIE LISTĄ---\n";
     std::cout << "2. Wyświetl zawrtość\n";
-    std::cout << "3. Posortuj\n";
-    std::cout << "4. Wyczyść\n\n";
+    std::cout << "3. Wypełnij losowymi elementami\n";
+    std::cout << "4. Pomieszaj zawartość\n";
+    std::cout << "5. Odwróć kolejność elementów\n";
+    std::cout << "6. Posortuj\n";
+    std::cout << "7. Wyczyść\n\n";
 
     std::cout << "---OPCJE---\n";
-    std::cout << "5. Wyjdź\n\n";
+    std::cout << "8. Wyjdź\n\n";
 
     std::cout << "Wybierz działanie: ";
 
@@ -59,6 +64,15 @@ int App::mainMenu() {
       break;
     case DISPLAY_ARRAY:
       handleDisplayArray();
+      break;
+    case GENERATE_RANDOM_ARRAY:
+      handleGenerateRandomArray();
+      break;
+    case SHUFFLE_ARRAY:
+      handleShuffleArray();
+      break;
+    case REVERSE_ARRAY:
+      handleReverseArray();
       break;
     case SORT_ARRAY:
       handleSortArray();
@@ -97,17 +111,31 @@ void App::handleInsertItem() {
 }
 
 void App::handleDisplayArray() {
-  std::cout << "[";
+  displayArray(array);
+}
 
-  for (auto it = array.begin(); it != array.end(); ++it) {
-    std::cout << *it;
+void App::handleGenerateRandomArray() {
+  std::cout << "Podaj ilość elementów: ";
+  int count;
+  std::cin >> count;
 
-    if (it != array.end() - 1) {
-      std::cout << ", ";
-    }
+  array.clear();
+
+  for (int i = 0; i < count; ++i) {
+    array.push_back(RandomNumberGenerator::getRandomNumber(-99, 99));
   }
 
-  std::cout << "]\n";
+  std::cout << "Wygenerowano listę\n";
+}
+
+void App::handleShuffleArray() {
+  randomlyShuffleArray(array);
+  std::cout << "Wymieszano listę\n";
+}
+
+void App::handleReverseArray() {
+  reverseArray(array);
+  std::cout << "Odwrócono listę\n";
 }
 
 void App::handleClearArray() {

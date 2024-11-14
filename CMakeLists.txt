@@ -2,9 +2,13 @@ cmake_minimum_required(VERSION 3.10)
 
 project(MergeSort)
 
-include_directories(src/app src/merge_sorter)
+include_directories(src/app src/merge_sorter src/utils)
 
-set(SOURCES src/main.cpp src/app/app.cpp src/merge_sorter/merge_sorter.cpp)
+set(SOURCES src/main.cpp src/app/app.cpp 
+    src/merge_sorter/merge_sorter.cpp
+    src/utils/array_utils/array_utils.cpp
+    src/utils/random_number_generator/random_number_generator.cpp
+    )
 
 add_executable(MergeSort ${SOURCES})
 
