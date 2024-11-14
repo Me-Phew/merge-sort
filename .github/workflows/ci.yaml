@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Get latest code
         uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
 
       - name: Install packages
         run: sudo apt update && sudo apt install -y graphviz
