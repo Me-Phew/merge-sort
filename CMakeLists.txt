@@ -33,6 +33,9 @@ else()
     add_compile_options(-Wall -Wextra -pedantic -Werror)
 endif()
 
+# Force Google Test to use dynamic runtime library
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+
 enable_testing()
 include(GoogleTest)
 add_subdirectory(tests)
