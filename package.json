@@ -2,6 +2,7 @@
   "type": "module",
   "scripts": {
     "prepare": "lefthook install",
+    "test": "cmake --preset \"GCC 13.1.0 x86_64-w64-mingw32 (mingw64)\" && cmake --build --preset \"GCC 13.1.0 x86_64-w64-mingw32 (mingw64)\" && cd \"build/GCC 13.1.0 x86_64-w64-mingw32 (mingw64)\" && ctest -C Debug -T test --output-on-failure",
     "build": "cmake --preset \"GCC 13.1.0 x86_64-w64-mingw32 (mingw64)\" && cmake --build --preset \"GCC 13.1.0 x86_64-w64-mingw32 (mingw64)\""
   },
   "devDependencies": {
