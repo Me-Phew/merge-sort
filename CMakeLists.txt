@@ -36,6 +36,9 @@ endif()
 # Force Google Test to use dynamic runtime library
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
-enable_testing()
-include(GoogleTest)
-add_subdirectory(tests)
+option(PACKAGE_TESTS "Build the tests" ON)
+if(PACKAGE_TESTS)
+    enable_testing()
+    include(GoogleTest)
+    add_subdirectory(tests)
+endif()

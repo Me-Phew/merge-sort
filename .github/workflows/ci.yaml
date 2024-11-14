@@ -39,7 +39,7 @@ jobs:
         run: cd ./build/linux-release && ctest -C Debug -T test --output-on-failure
 
       - name: Compile project for Windows using CMake
-        run: cmake --preset windows-release && cmake --build --preset windows-release-build
+        run: cmake -DPACKAGE_TESTS=OFF --preset windows-release && cmake --build --preset windows-release-build
 
       - name: Bump version and push tag
         if: github.ref == 'refs/heads/main'
