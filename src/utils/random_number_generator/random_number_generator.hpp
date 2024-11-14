@@ -1,3 +1,13 @@
+/**
+ * @file random_number_generator.hpp
+ * @author Mateusz Basiaga (basmateusz@wp.pl)
+ * @brief
+ * @date 2024-11-14
+ *
+ * @copyright Copyright (c) 2024
+ *
+ */
+
 #ifndef RANDOM_NUMBER_GENERATOR_HPP
 #define RANDOM_NUMBER_GENERATOR_HPP
 
