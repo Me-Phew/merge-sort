@@ -24,18 +24,21 @@ jobs:
       - name: Install Node dependencies
         run: npm install
 
+      - name: Install CMake and ninja
+        uses: lukka/get-cmake@latest
+
+      - name: Install MinGW
+        uses: egor-tensin/setup-mingw@v2
+
+      - name: Run tests
+        run: npm run test
+
       - name: Bump version and push tag
         if: github.ref == 'refs/heads/main'
         id: tag_version
         uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Install CMake and ninja
-        uses: lukka/get-cmake@latest
-
-      - name: Install MinGW
-        uses: egor-tensin/setup-mingw@v2
 
       - name: Compile project for Windows using CMake
         run: cmake --preset windows-release && cmake --build --preset windows-release-build
