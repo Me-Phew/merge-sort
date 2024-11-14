@@ -18,5 +18,5 @@ TEST(TestMergeSorter, SortsBasicArray) {
   std::vector<int> test_array = { 3, 2, 1 };
   MergeSorter::sortArray(test_array);
 
-  ASSERT_THAT(test_array, testing::ElementsAre(1, 4, 3));
+  ASSERT_THAT(test_array, testing::ElementsAre(1, 2, 3));
 }
