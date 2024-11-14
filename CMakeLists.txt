@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 3.14)
 
 project(MergeSort)
 
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 include_directories(src/app src/merge_sorter src/utils)
 
 set(SOURCES src/main.cpp src/app/app.cpp 
