@@ -30,8 +30,14 @@ jobs:
       - name: Install MinGW
         uses: egor-tensin/setup-mingw@v2
 
+      - name: Compile project for Linux using CMake
+        run: cmake --preset linux-release && cmake --build --preset linux-release-build
+
       - name: Run tests
-        run: npm run test
+        run: cd ./build/linux-release/${{ env.PROJECT_NAME }} && ctest -C Debug -T test --output-on-failure
+
+      - name: Compile project for Windows using CMake
+        run: cmake --preset windows-release && cmake --build --preset windows-release-build
 
       - name: Bump version and push tag
         if: github.ref == 'refs/heads/main'
@@ -39,12 +45,6 @@ jobs:
         uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Compile project for Windows using CMake
-        run: cmake --preset windows-release && cmake --build --preset windows-release-build
-
-      - name: Compile project for Linux using CMake
-        run: cmake --preset linux-release && cmake --build --preset linux-release-build
 
       - name: Prepare build artifacts
         run: |
