@@ -1,0 +1,7 @@
+<map id="TestGenerationTest" name="TestGenerationTest">
+<area shape="rect" id="Node000001" title=" " alt="" coords="83,94,219,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,153,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,41,143,92,139,95,97,45"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="176,5,270,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,45,163,95,159,92,201,41"/>
+</map>
