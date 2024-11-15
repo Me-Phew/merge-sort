@@ -1,3 +1,13 @@
+/**
+ * @file merge_sorter.hpp
+ * @author Mateusz Basiaga (basmateusz@wp.pl)
+ * @brief
+ * @date 2024-11-14
+ *
+ * @copyright Copyright (c) 2024
+ *
+ */
+
 #ifndef MERGE_SORTER_HPP
 #define MERGE_SORTER_HPP
 

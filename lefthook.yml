@@ -1,11 +1,7 @@
 pre-commit:
   commands:
-    build:
-      run: npm run build
-
-    generate-docs:
-      root: /
-      run: doxygen && ./docs/doxygen/latex/make.bat
+    test:
+      run: npm run test
 
 commit-msg:
   commands:

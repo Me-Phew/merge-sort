@@ -20,6 +20,9 @@ enum MenuOption {
   INSERT_ITEM = 1,
 
   DISPLAY_ARRAY,
+  GENERATE_RANDOM_ARRAY,
+  SHUFFLE_ARRAY,
+  REVERSE_ARRAY,
   SORT_ARRAY,
   CLEAR_ARRAY,
 
@@ -49,6 +52,12 @@ private:
   static void handleInsertItem();
 
   static void handleDisplayArray();
+
+  static void handleGenerateRandomArray();
+
+  static void handleShuffleArray();
+
+  static void handleReverseArray();
 
   static void handleClearArray();
 
