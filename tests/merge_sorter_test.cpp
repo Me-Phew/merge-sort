@@ -1,5 +1,5 @@
 /**
- * @file test_merge_sorter.cpp
+ * @file merge_sorter_test.cpp
  * @author Mateusz Basiaga (basmateusz@wp.pl)
  * @brief
  * @date 2024-11-14
