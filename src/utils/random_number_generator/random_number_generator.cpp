@@ -17,7 +17,7 @@ bool RandomNumberGenerator::isSeeded = false;
 
 void RandomNumberGenerator::seed() {
   if (!isSeeded) {
-    std::srand(std::time(NULL));
+    std::srand((unsigned int)std::time(NULL));
     isSeeded = true;
   }
 }
@@ -25,6 +25,6 @@ void RandomNumberGenerator::seed() {
 int RandomNumberGenerator::getRandomNumber(int min, int max) {
   RandomNumberGenerator::seed();
 
-  int range = max - min;
-  return std::rand() % range;
+  int range = max - min + 1;
+  return std::rand() % range + min;
 }
