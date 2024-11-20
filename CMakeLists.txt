@@ -24,7 +24,6 @@ set(SOURCES src/main.cpp src/app/app.cpp
     )
 
 add_executable(MergeSort ${SOURCES})
-target_link_libraries(MergeSort PRIVATE merge_sorter)
 
 # Compile with all warnings, treat warnings as errors
 if (MSVC)
@@ -41,4 +40,14 @@ if(PACKAGE_TESTS)
     enable_testing()
     include(GoogleTest)
     add_subdirectory(tests)
+
+    target_link_libraries(MergeSort PRIVATE merge_sorter)
+
+    add_library(random_number_generator
+        src/utils/random_number_generator/random_number_generator.cpp
+    )
+
+    target_include_directories(TestMergeSorter PRIVATE
+        ${CMAKE_SOURCE_DIR}/src/utils/random_number_generator
+    )
 endif()

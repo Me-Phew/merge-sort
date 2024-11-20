@@ -16,7 +16,7 @@ macro(package_add_test TESTNAME)
     add_executable(${TESTNAME} ${ARGN})
     # link the Google test infrastructure, mocking library, and a default main function to
     # the test executable.  Remove g_test_main if writing your own main function.
-    target_link_libraries(${TESTNAME} gtest gmock gtest_main merge_sorter)
+    target_link_libraries(${TESTNAME} gtest gmock gtest_main merge_sorter random_number_generator)
     # gtest_discover_tests replaces gtest_add_tests,
     # see https://cmake.org/cmake/help/v3.10/module/GoogleTest.html for more options to pass to it
     gtest_discover_tests(${TESTNAME}
@@ -27,4 +27,4 @@ macro(package_add_test TESTNAME)
     set_target_properties(${TESTNAME} PROPERTIES FOLDER tests)
 endmacro()
 
-package_add_test(TestMergeSorter test__merge_sorter.cpp)
+package_add_test(TestMergeSorter merge_sorter_test.cpp)
