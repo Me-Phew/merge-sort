@@ -1,11 +1,10 @@
 /**
  * @file merge_sorter.cpp
- * @author Mateusz Basiaga (basmateusz@wp.pl)
- * @brief
+ * @author
+ * @brief Implementacja klasy MergeSorter do sortowania tablicy liczb całkowitych za pomocą algorytmu merge sort.
  * @date 2024-11-13
  *
- * @copyright Copyright (c) 2024
- *
+ * @copyright
  */
 
 #include <vector>

@@ -1,11 +1,10 @@
 /**
  * @file array_utils.cpp
  * @author Mateusz Basiaga (basmateusz@wp.pl)
- * @brief
+ * @brief Implementacja funkcji pomocniczych do operacji na tablicach liczb całkowitych.
  * @date 2024-11-14
  *
  * @copyright Copyright (c) 2024
- *
  */
 
 #include <vector>

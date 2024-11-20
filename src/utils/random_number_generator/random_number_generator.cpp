@@ -1,11 +1,10 @@
 /**
  * @file random_number_generator.cpp
  * @author Mateusz Basiaga (basmateusz@wp.pl)
- * @brief
+ * @brief Implementacja generatora liczb losowych.
  * @date 2024-11-14
  *
  * @copyright Copyright (c) 2024
- *
  */
 
 #include<cstdlib>
