@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(src/app src/merge_sorter src/utils)
 
+# Main executable
 # Create merge_sorter library
 add_library(merge_sorter
     src/merge_sorter/merge_sorter.cpp
@@ -24,6 +25,7 @@ set(SOURCES src/main.cpp src/app/app.cpp
     )
 
 add_executable(MergeSort ${SOURCES})
+target_link_libraries(MergeSort PRIVATE merge_sorter)
 
 # Compile with all warnings, treat warnings as errors
 if (MSVC)

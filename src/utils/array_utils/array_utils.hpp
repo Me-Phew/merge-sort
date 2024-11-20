@@ -4,7 +4,7 @@
  * @brief Deklaracja funkcji narzędziowych do operacji na tablicach liczb całkowitych.
  * @date 2024-11-14
  *
- * @copyright
+ * @copyright Copyright (c) 2024
  */
 
 #ifndef ARRAY_UTILS_HPP

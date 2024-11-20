@@ -4,7 +4,7 @@
  * @brief Deklaracja klasy MergeSorter do sortowania tablicy za pomocą algorytmu merge sort.
  * @date 2024-11-14
  *
- * @copyright
+ * @copyright Copyright (c) 2024
  */
 
 #ifndef MERGE_SORTER_HPP
