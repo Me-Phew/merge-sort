@@ -51,7 +51,7 @@ TEST(TestMergeSorter, SortsRandomArray) {
 
   MergeSorter::sortArray(test_array);
 
-  for (int i = 0; i < test_array.size() - 1; ++i) {
+  for (std::vector<int>::size_type i = 0; i < test_array.size() - 1; ++i) {
     ASSERT_LE(test_array[i], test_array[i + 1]);
   }
 }
@@ -148,7 +148,7 @@ TEST(TestMergeSorter, SortsLargeArray) {
 
   MergeSorter::sortArray(test_array);
 
-  for (int i = 0; i < test_array.size() - 1; ++i) {
+  for (std::vector<int>::size_type i = 0; i < test_array.size() - 1; ++i) {
     ASSERT_LE(test_array[i], test_array[i + 1]);
   }
 }
@@ -165,7 +165,7 @@ TEST(TestMergeSorter, SortsLargeArrayWithNegativeAndPositiveDuplicates) {
 
   MergeSorter::sortArray(test_array);
 
-  for (int i = 0; i < test_array.size() - 1; ++i) {
+  for (std::vector<int>::size_type i = 0; i < test_array.size() - 1; ++i) {
     ASSERT_LE(test_array[i], test_array[i + 1]);
   }
 }
