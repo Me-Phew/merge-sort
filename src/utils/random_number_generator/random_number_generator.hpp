@@ -18,6 +18,16 @@ class RandomNumberGenerator {
 private:
   static bool isSeeded; ///< Flaga wskazująca, czy generator został zainicjalizowany z ziarnem.
 
+  /// @brief Konstruktor usunięty, ponieważ klasa zawiera wyłącznie statyczne metody.
+  RandomNumberGenerator() = delete;
+
+  /// @brief Usunięty konstruktor kopiujący.
+  RandomNumberGenerator(const RandomNumberGenerator&) = delete;
+
+  /// @brief Usunięty operator przypisania.
+  RandomNumberGenerator& operator=(const RandomNumberGenerator&) = delete;
+
+
   /// @brief Inicjalizuje generator liczb losowych.
   /// 
   /// Funkcja ustawia ziarno generatora liczb losowych na podstawie czasu systemowego.
