@@ -53,7 +53,7 @@
               <td id="projectlogo"><img alt="Logo" src="favicon.svg"  /></td>
               <td id="projectalign">
                 <div id="projectname">Merge Sort<span
-                    id="projectnumber">&#160;v0.3.0</span>
+                    id="projectnumber">&#160;v0.3.1</span>
                 </div>
               </td>
             </tr>
@@ -129,6 +129,9 @@ $(function(){initNavTree('app_8hpp.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">app.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Plik nagłówkowy aplikacji obsługującej listę elementów z różnymi operacjami na tablicy.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -153,14 +156,14 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a5be5e47a3042bc91460d05e47f32120d" id="r_a5be5e47a3042bc91460d05e47f32120d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5be5e47a3042bc91460d05e47f32120d">MenuOption</a> { <br />
-&#160;&#160;<b>INSERT_ITEM</b> = 1
-, <b>DISPLAY_ARRAY</b>
-, <b>GENERATE_RANDOM_ARRAY</b>
-, <b>SHUFFLE_ARRAY</b>
+&#160;&#160;<a class="el" href="#a5be5e47a3042bc91460d05e47f32120da53181643edfa4d6f709dd9023e1cd1e7">INSERT_ITEM</a> = 1
+, <a class="el" href="#a5be5e47a3042bc91460d05e47f32120da956feabf854fbf00a2f193a60f469dcd">DISPLAY_ARRAY</a>
+, <a class="el" href="#a5be5e47a3042bc91460d05e47f32120daf61ee55443e8cada461415405875c86f">GENERATE_RANDOM_ARRAY</a>
+, <a class="el" href="#a5be5e47a3042bc91460d05e47f32120da8d1832a3eb6e16e261252686c6ded901">SHUFFLE_ARRAY</a>
 , <br />
-&#160;&#160;<b>REVERSE_ARRAY</b>
-, <b>SORT_ARRAY</b>
-, <b>CLEAR_ARRAY</b>
+&#160;&#160;<a class="el" href="#a5be5e47a3042bc91460d05e47f32120daf8865e5ea7c996b57fe7b38aa3345ee6">REVERSE_ARRAY</a>
+, <a class="el" href="#a5be5e47a3042bc91460d05e47f32120da95bac9e68c2902aa7d47fca15f9646b3">SORT_ARRAY</a>
+, <a class="el" href="#a5be5e47a3042bc91460d05e47f32120dac8284d89d3bd9f8f0a801abee92e34de">CLEAR_ARRAY</a>
 , <a class="el" href="#a5be5e47a3042bc91460d05e47f32120da7a10b5d68d31711288e1fe0fa17dbf4f">EXIT</a>
 <br />
  }</td></tr>
@@ -174,7 +177,8 @@ Functions</h2></td></tr>
 <tr class="separator:af4cc8f6d9deb89b3330b11b9587229f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mateusz Basiaga (<a href="#" onclick="location.href='mai'+'lto:'+'bas'+'ma'+'teu'+'sz'+'@wp'+'.p'+'l'; return false;">basma<span class="obfuscator">.nosp@m.</span>teus<span class="obfuscator">.nosp@m.</span>z@wp.<span class="obfuscator">.nosp@m.</span>pl</a>) </dd></dl>
+<div class="textblock"><p>Plik nagłówkowy aplikacji obsługującej listę elementów z różnymi operacjami na tablicy. </p>
+<dl class="section author"><dt>Author</dt><dd>Mateusz Basiaga </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2024-11-13</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2024 </dd></dl>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -192,7 +196,21 @@ Functions</h2></td></tr>
 
 <p>Wyliczenie opcji dostępnych w menu. Definiuje różne operacje, które użytkownik może wybrać w aplikacji. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5be5e47a3042bc91460d05e47f32120da7a10b5d68d31711288e1fe0fa17dbf4f" name="a5be5e47a3042bc91460d05e47f32120da7a10b5d68d31711288e1fe0fa17dbf4f"></a>EXIT&#160;</td><td class="fielddoc"><p>Zakończenie działania aplikacji. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5be5e47a3042bc91460d05e47f32120da53181643edfa4d6f709dd9023e1cd1e7" name="a5be5e47a3042bc91460d05e47f32120da53181643edfa4d6f709dd9023e1cd1e7"></a>INSERT_ITEM&#160;</td><td class="fielddoc"><p>Dodawanie elementu do tablicy. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5be5e47a3042bc91460d05e47f32120da956feabf854fbf00a2f193a60f469dcd" name="a5be5e47a3042bc91460d05e47f32120da956feabf854fbf00a2f193a60f469dcd"></a>DISPLAY_ARRAY&#160;</td><td class="fielddoc"><p>Wyświetlanie zawartości tablicy. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5be5e47a3042bc91460d05e47f32120daf61ee55443e8cada461415405875c86f" name="a5be5e47a3042bc91460d05e47f32120daf61ee55443e8cada461415405875c86f"></a>GENERATE_RANDOM_ARRAY&#160;</td><td class="fielddoc"><p>Generowanie losowej tablicy liczb. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5be5e47a3042bc91460d05e47f32120da8d1832a3eb6e16e261252686c6ded901" name="a5be5e47a3042bc91460d05e47f32120da8d1832a3eb6e16e261252686c6ded901"></a>SHUFFLE_ARRAY&#160;</td><td class="fielddoc"><p>Tasowanie elementów tablicy. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5be5e47a3042bc91460d05e47f32120daf8865e5ea7c996b57fe7b38aa3345ee6" name="a5be5e47a3042bc91460d05e47f32120daf8865e5ea7c996b57fe7b38aa3345ee6"></a>REVERSE_ARRAY&#160;</td><td class="fielddoc"><p>Odwracanie kolejności elementów w tablicy. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5be5e47a3042bc91460d05e47f32120da95bac9e68c2902aa7d47fca15f9646b3" name="a5be5e47a3042bc91460d05e47f32120da95bac9e68c2902aa7d47fca15f9646b3"></a>SORT_ARRAY&#160;</td><td class="fielddoc"><p>Sortowanie tablicy. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5be5e47a3042bc91460d05e47f32120dac8284d89d3bd9f8f0a801abee92e34de" name="a5be5e47a3042bc91460d05e47f32120dac8284d89d3bd9f8f0a801abee92e34de"></a>CLEAR_ARRAY&#160;</td><td class="fielddoc"><p>Czyszczenie zawartości tablicy. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5be5e47a3042bc91460d05e47f32120da7a10b5d68d31711288e1fe0fa17dbf4f" name="a5be5e47a3042bc91460d05e47f32120da7a10b5d68d31711288e1fe0fa17dbf4f"></a>EXIT&#160;</td><td class="fielddoc"><p>Zakończenie działania aplikacji. </p>
 </td></tr>
 </table>
 

@@ -1,5 +1,11 @@
 var NAVTREEINDEX1 =
 {
+"classgoogletest-uninitialized-test_1_1GTestUninitializedTest.html":[29,0,20,0],
+"classgtest__help__test_1_1GTestHelpTest.html":[28,0,4,0],
+"classgtest__help__test_1_1GTestHelpTest.html":[29,0,21,0],
+"classgtest__help__test_1_1GTestHelpTest.html#a68daf8fcefefce9c780430c1720c9ba4":[28,0,4,0,1],
+"classgtest__help__test_1_1GTestHelpTest.html#a68daf8fcefefce9c780430c1720c9ba4":[29,0,21,0,1],
+"classgtest__help__test_1_1GTestHelpTest.html#ad25e4f6ce444fdf9e7bad687d810dfce":[28,0,4,0,2],
 "classgtest__help__test_1_1GTestHelpTest.html#ad25e4f6ce444fdf9e7bad687d810dfce":[29,0,21,0,2],
 "classgtest__help__test_1_1GTestHelpTest.html#afab3430e67a53ac981d254a3b8c4f4c4":[28,0,4,0,0],
 "classgtest__help__test_1_1GTestHelpTest.html#afab3430e67a53ac981d254a3b8c4f4c4":[29,0,21,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX1 =
 "classtesting_1_1internal_1_1UniversalTersePrinter_3_01const_01char_01_5_01_4.html":[29,0,36,5,195],
 "classtesting_1_1internal_1_1UniversalTersePrinter_3_01std_1_1reference__wrapper_3_01T_01_4_01_4.html":[29,0,36,5,198],
 "classtesting_1_1internal_1_1UniversalTersePrinter_3_01wchar__t_01_5_01_4.html":[29,0,36,5,201],
-"classtesting_1_1internal_1_1ValueArray.html":[29,0,36,5,202],
-"classtesting_1_1internal_1_1ValuesInIteratorRangeGenerator.html":[29,0,36,5,203],
-"classtesting_1_1internal_1_1WithoutMatchers.html":[29,0,36,5,205],
-"classworks__here_1_1NotInstantiatedTest.html":[29,0,37,0],
-"classworks__here_1_1NotInstantiatedTypeTest.html":[29,0,37,1],
-"classworks__here_1_1NotUsedTest.html":[29,0,37,2],
-"classworks__here_1_1NotUsedTypeTest.html":[29,0,37,3]
+"classtesting_1_1internal_1_1ValueArray.html":[29,0,36,5,202]
 };

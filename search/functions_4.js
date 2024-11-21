@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_0',['Main',['../namespacegmock__test__utils.html#ab436e920b5feb62a33936b0d839702e7',1,'gmock_test_utils.Main()'],['../namespacegtest__test__utils.html#affb42cd189bf8fb9618e5b7178fd34fd',1,'gtest_test_utils.Main()']]]
+  ['is_5fbsd_5fbased_5fos_0',['is_bsd_based_os',['../namespacegtest__help__test.html#aacf0f9f77444fcfa6c66eda508a9728b',1,'gtest_help_test']]]
 ];

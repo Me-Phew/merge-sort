@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="classRandomNumberGenerator.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="classRandomNumberGenerator.html" target="_top" xlink:title="Klasa do generowania liczb losowych w określonym zakresie.">
 <polygon fill="white" stroke="#666666" points="129.25,-19.25 0,-19.25 0,0 129.25,0 129.25,-19.25"/>
 <text text-anchor="middle" x="64.62" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">RandomNumberGenerator</text>
 </a>

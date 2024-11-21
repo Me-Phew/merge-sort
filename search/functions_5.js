@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['normalize_0',['normalize',['../namespacegtest__json__test__utils.html#ada57e0a99abb228db0fae7702c1d9bd8',1,'gtest_json_test_utils']]],
-  ['normalizeerrormarker_1',['NormalizeErrorMarker',['../namespacegmock__output__test.html#aeeb22f52d3bf1ba7dbda8f8847faa103',1,'gmock_output_test']]],
-  ['normalizexml_2',['NormalizeXml',['../classgtest__xml__test__utils_1_1GTestXMLTestCase.html#a2b8aed90eb732e3cc3f0cc333e19a2f0',1,'gtest_xml_test_utils::GTestXMLTestCase']]]
+  ['main_0',['Main',['../namespacegmock__test__utils.html#ab436e920b5feb62a33936b0d839702e7',1,'gmock_test_utils.Main()'],['../namespacegtest__test__utils.html#affb42cd189bf8fb9618e5b7178fd34fd',1,'gtest_test_utils.Main()']]],
+  ['main_1',['main',['../src_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]]
 ];

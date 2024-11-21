@@ -53,7 +53,7 @@
               <td id="projectlogo"><img alt="Logo" src="favicon.svg"  /></td>
               <td id="projectalign">
                 <div id="projectname">Merge Sort<span
-                    id="projectnumber">&#160;v0.3.0</span>
+                    id="projectnumber">&#160;v0.3.1</span>
                 </div>
               </td>
             </tr>
@@ -126,23 +126,24 @@ $(function(){initNavTree('random__number__generator_8hpp_source.html',''); initR
 </div><!--header-->
 <div class="contents">
 <a href="random__number__generator_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef RANDOM_NUMBER_GENERATOR_HPP</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define RANDOM_NUMBER_GENERATOR_HPP</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classRandomNumberGenerator.html">   14</a></span><span class="keyword">class </span><a class="code hl_class" href="classRandomNumberGenerator.html">RandomNumberGenerator</a> {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  <span class="keyword">static</span> <span class="keywordtype">bool</span> isSeeded;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> seed();</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef RANDOM_NUMBER_GENERATOR_HPP</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define RANDOM_NUMBER_GENERATOR_HPP</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classRandomNumberGenerator.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="classRandomNumberGenerator.html">RandomNumberGenerator</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keyword">static</span> <span class="keywordtype">bool</span> isSeeded; </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  <span class="keyword">static</span> <span class="keywordtype">int</span> getRandomNumber(<span class="keywordtype">int</span> min, <span class="keywordtype">int</span> max);</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>};</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> seed();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="classRandomNumberGenerator.html#a6078dcc0412152b8b83dbdf3d09ba727">getRandomNumber</a>(<span class="keywordtype">int</span> min, <span class="keywordtype">int</span> max);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
 </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#endif </span><span class="comment">/* RANDOM_NUMBER_GENERATOR_HPP */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aclassRandomNumberGenerator_html"><div class="ttname"><a href="classRandomNumberGenerator.html">RandomNumberGenerator</a></div><div class="ttdef"><b>Definition</b> random_number_generator.hpp:14</div></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#endif </span><span class="comment">/* RANDOM_NUMBER_GENERATOR_HPP */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="aclassRandomNumberGenerator_html"><div class="ttname"><a href="classRandomNumberGenerator.html">RandomNumberGenerator</a></div><div class="ttdoc">Klasa do generowania liczb losowych w określonym zakresie.</div><div class="ttdef"><b>Definition</b> random_number_generator.hpp:17</div></div>
+<div class="ttc" id="aclassRandomNumberGenerator_html_a6078dcc0412152b8b83dbdf3d09ba727"><div class="ttname"><a href="classRandomNumberGenerator.html#a6078dcc0412152b8b83dbdf3d09ba727">RandomNumberGenerator::getRandomNumber</a></div><div class="ttdeci">static int getRandomNumber(int min, int max)</div><div class="ttdoc">Generuje liczbę losową z podanego zakresu.</div><div class="ttdef"><b>Definition</b> random_number_generator.cpp:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['operator_3e_3e_0',['operator&gt;&gt;',['../app_8cpp.html#af4cc8f6d9deb89b3330b11b9587229f6',1,'operator&gt;&gt;(std::istream &amp;iStream, MenuOption &amp;menuOption):&#160;app.cpp'],['../app_8hpp.html#af4cc8f6d9deb89b3330b11b9587229f6',1,'operator&gt;&gt;(std::istream &amp;iStream, MenuOption &amp;menuOption):&#160;app.cpp']]]
+  ['normalize_0',['normalize',['../namespacegtest__json__test__utils.html#ada57e0a99abb228db0fae7702c1d9bd8',1,'gtest_json_test_utils']]],
+  ['normalizeerrormarker_1',['NormalizeErrorMarker',['../namespacegmock__output__test.html#aeeb22f52d3bf1ba7dbda8f8847faa103',1,'gmock_output_test']]],
+  ['normalizexml_2',['NormalizeXml',['../classgtest__xml__test__utils_1_1GTestXMLTestCase.html#a2b8aed90eb732e3cc3f0cc333e19a2f0',1,'gtest_xml_test_utils::GTestXMLTestCase']]]
 ];

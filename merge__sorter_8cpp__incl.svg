@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Implementacja klasy MergeSorter do sortowania tablicy liczb całkowitych za pomocą algorytmu merge sor...">
 <polygon fill="#999999" stroke="#666666" points="119.5,-141 0,-141 0,-110.5 119.5,-110.5 119.5,-141"/>
 <text text-anchor="start" x="8" y="-127.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/merge_sorter/merge</text>
 <text text-anchor="middle" x="59.75" y="-116.25" font-family="Helvetica,sans-Serif" font-size="10.00">_sorter.cpp</text>
@@ -39,7 +39,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="merge__sorter_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="merge__sorter_8hpp.html" target="_top" xlink:title="Deklaracja klasy MergeSorter do sortowania tablicy za pomocą algorytmu merge sort.">
 <polygon fill="white" stroke="#666666" points="142.25,-74.5 51.25,-74.5 51.25,-55.25 142.25,-55.25 142.25,-74.5"/>
 <text text-anchor="middle" x="96.75" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">merge_sorter.hpp</text>
 </a>

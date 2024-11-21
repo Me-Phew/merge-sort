@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Deklaracja funkcji narzędziowych do operacji na tablicach liczb całkowitych.">
 <polygon fill="#999999" stroke="#666666" points="97.75,-85.75 0,-85.75 0,-55.25 97.75,-55.25 97.75,-85.75"/>
 <text text-anchor="start" x="8" y="-72.25" font-family="Helvetica,sans-Serif" font-size="10.00">src/utils/array_utils</text>
 <text text-anchor="middle" x="48.88" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">/array_utils.hpp</text>

@@ -53,7 +53,7 @@
               <td id="projectlogo"><img alt="Logo" src="favicon.svg"  /></td>
               <td id="projectalign">
                 <div id="projectname">Merge Sort<span
-                    id="projectnumber">&#160;v0.3.0</span>
+                    id="projectnumber">&#160;v0.3.1</span>
                 </div>
               </td>
             </tr>
@@ -128,13 +128,62 @@ $(function(){initNavTree('classRandomNumberGenerator.html',''); initResizable(tr
   <div class="headertitle"><div class="title">RandomNumberGenerator Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Klasa do generowania liczb losowych w określonym zakresie.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="random__number__generator_8hpp_source.html">random_number_generator.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6078dcc0412152b8b83dbdf3d09ba727" id="r_a6078dcc0412152b8b83dbdf3d09ba727"><td class="memItemLeft" align="right" valign="top"><a id="a6078dcc0412152b8b83dbdf3d09ba727" name="a6078dcc0412152b8b83dbdf3d09ba727"></a>
-static int&#160;</td><td class="memItemRight" valign="bottom"><b>getRandomNumber</b> (int min, int max)</td></tr>
+<tr class="memitem:a6078dcc0412152b8b83dbdf3d09ba727" id="r_a6078dcc0412152b8b83dbdf3d09ba727"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6078dcc0412152b8b83dbdf3d09ba727">getRandomNumber</a> (int min, int max)</td></tr>
+<tr class="memdesc:a6078dcc0412152b8b83dbdf3d09ba727"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generuje liczbę losową z podanego zakresu.  <br /></td></tr>
 <tr class="separator:a6078dcc0412152b8b83dbdf3d09ba727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Klasa do generowania liczb losowych w określonym zakresie. </p>
+<p>Klasa zawiera metody umożliwiające generowanie liczb pseudolosowych w zadanym przedziale. Korzysta z mechanizmu inicjalizacji generatora za pomocą ziarna. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6078dcc0412152b8b83dbdf3d09ba727" name="a6078dcc0412152b8b83dbdf3d09ba727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6078dcc0412152b8b83dbdf3d09ba727">&#9670;&#160;</a></span>getRandomNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RandomNumberGenerator::getRandomNumber </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generuje liczbę losową z podanego zakresu. </p>
+<p>Funkcja zwraca liczbę całkowitą losową z przedziału [min, max]. Jeśli generator nie został wcześniej zainicjalizowany, funkcja wywołuje <code>seed()</code>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">min</td><td>Dolna granica zakresu (włącznie). </td></tr>
+    <tr><td class="paramname">max</td><td>Górna granica zakresu (włącznie). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Liczba całkowita losowa z przedziału [min, max]. </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/utils/random_number_generator/<a class="el" href="random__number__generator_8hpp_source.html">random_number_generator.hpp</a></li>
 <li>src/utils/random_number_generator/<a class="el" href="random__number__generator_8cpp.html">random_number_generator.cpp</a></li>

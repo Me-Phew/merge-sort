@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Plik nagłówkowy aplikacji obsługującej listę elementów z różnymi operacjami na tablicy.">
 <polygon fill="#999999" stroke="#666666" points="102.25,-74.5 17.25,-74.5 17.25,-55.25 102.25,-55.25 102.25,-74.5"/>
 <text text-anchor="middle" x="59.75" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">src/app/app.hpp</text>
 </a>

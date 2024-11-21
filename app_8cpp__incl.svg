@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Implementacja klasy App obsługującej operacje na liście liczb całkowitych poprzez interaktywne menu.">
 <polygon fill="#999999" stroke="#666666" points="235.25,-141 150.25,-141 150.25,-121.75 235.25,-121.75 235.25,-141"/>
 <text text-anchor="middle" x="192.75" y="-127.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/app/app.cpp</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="app_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="app_8hpp.html" target="_top" xlink:title="Plik nagłówkowy aplikacji obsługującej listę elementów z różnymi operacjami na tablicy.">
 <polygon fill="white" stroke="#666666" points="51.62,-80.12 1.88,-80.12 1.88,-60.88 51.62,-60.88 51.62,-80.12"/>
 <text text-anchor="middle" x="26.75" y="-66.62" font-family="Helvetica,sans-Serif" font-size="10.00">app.hpp</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="merge__sorter_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="merge__sorter_8hpp.html" target="_top" xlink:title="Deklaracja klasy MergeSorter do sortowania tablicy za pomocą algorytmu merge sort.">
 <polygon fill="white" stroke="#666666" points="180,-85.75 69.5,-85.75 69.5,-55.25 180,-55.25 180,-85.75"/>
 <text text-anchor="start" x="77.5" y="-72.25" font-family="Helvetica,sans-Serif" font-size="10.00">../merge_sorter/merge</text>
 <text text-anchor="middle" x="124.75" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">_sorter.hpp</text>
@@ -57,7 +57,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="array__utils_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="array__utils_8hpp.html" target="_top" xlink:title="Deklaracja funkcji narzędziowych do operacji na tablicach liczb całkowitych.">
 <polygon fill="white" stroke="#666666" points="323.5,-80.12 198,-80.12 198,-60.88 323.5,-60.88 323.5,-80.12"/>
 <text text-anchor="middle" x="260.75" y="-66.62" font-family="Helvetica,sans-Serif" font-size="10.00">array_utils/array_utils.hpp</text>
 </a>
@@ -75,7 +75,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="random__number__generator_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="random__number__generator_8hpp.html" target="_top" xlink:title="Deklaracja klasy RandomNumberGenerator do generowania liczb losowych.">
 <polygon fill="white" stroke="#666666" points="494,-85.75 341.5,-85.75 341.5,-55.25 494,-55.25 494,-85.75"/>
 <text text-anchor="start" x="349.5" y="-72.25" font-family="Helvetica,sans-Serif" font-size="10.00">random_number_generator</text>
 <text text-anchor="middle" x="417.75" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">/random_number_generator.hpp</text>

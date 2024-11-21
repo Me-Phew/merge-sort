@@ -1,5 +1,12 @@
 var NAVTREEINDEX3 =
 {
+"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#MatcherList":[4,4],
+"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#MockClass":[4,0,0],
+"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#MockTemplate":[4,0,1],
+"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#OnCall":[4,2],
+"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#UsingMocks":[4,1],
+"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#autotoc_md111":[4,0],
+"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#autotoc_md112":[4,0,2],
 "md_extern_2googletest_2docs_2gmock__cheat__sheet.html#autotoc_md113":[4,7],
 "md_extern_2googletest_2docs_2gmock__cheat__sheet.html#autotoc_md114":[4,8],
 "md_extern_2googletest_2docs_2gmock__cheat__sheet.html#autotoc_md115":[4,9],
@@ -242,12 +249,5 @@ var NAVTREEINDEX3 =
 "md_extern_2googletest_2docs_2reference_2testing.html#InitGoogleTest":[18,2,0],
 "md_extern_2googletest_2docs_2reference_2testing.html#PrintToString":[18,2,7],
 "md_extern_2googletest_2docs_2reference_2testing.html#PrintToStringParamName":[18,2,8],
-"md_extern_2googletest_2docs_2reference_2testing.html#REGISTER_TYPED_TEST_SUITE_P":[18,0,8],
-"md_extern_2googletest_2docs_2reference_2testing.html#RUN_ALL_TESTS":[18,2,3],
-"md_extern_2googletest_2docs_2reference_2testing.html#RegisterTest":[18,2,2],
-"md_extern_2googletest_2docs_2reference_2testing.html#SCOPED_TRACE":[18,0,11],
-"md_extern_2googletest_2docs_2reference_2testing.html#ScopedTrace":[18,1,4],
-"md_extern_2googletest_2docs_2reference_2testing.html#SetValue":[18,1,14,0,2],
-"md_extern_2googletest_2docs_2reference_2testing.html#StaticAssertTypeEq":[18,2,6],
-"md_extern_2googletest_2docs_2reference_2testing.html#TEST":[18,0,0]
+"md_extern_2googletest_2docs_2reference_2testing.html#REGISTER_TYPED_TEST_SUITE_P":[18,0,8]
 };
