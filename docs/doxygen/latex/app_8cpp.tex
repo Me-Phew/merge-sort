@@ -1,0 +1,55 @@
+\doxysection{src/app/app.cpp File Reference}
+\hypertarget{app_8cpp}{}\label{app_8cpp}\index{src/app/app.cpp@{src/app/app.cpp}}
+
+
+Implementacja klasy \doxylink{class_app}{App} obsługującej operacje na liście liczb całkowitych poprzez interaktywne menu.  
+
+
+{\ttfamily \#include "{}app.\+hpp"{}}\newline
+{\ttfamily \#include "{}../merge\+\_\+sorter/merge\+\_\+sorter.\+hpp"{}}\newline
+{\ttfamily \#include $<$array\+\_\+utils/array\+\_\+utils.\+hpp$>$}\newline
+{\ttfamily \#include $<$random\+\_\+number\+\_\+generator/random\+\_\+number\+\_\+generator.\+hpp$>$}\newline
+Include dependency graph for app.\+cpp\+:
+% FIG 0
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::istream \& \mbox{\hyperlink{app_8cpp_af4cc8f6d9deb89b3330b11b9587229f6}{operator$>$$>$}} (std\+::istream \&i\+Stream, \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120d}{Menu\+Option}} \&menu\+Option)
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} do wyboru opcji menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementacja klasy \doxylink{class_app}{App} obsługującej operacje na liście liczb całkowitych poprzez interaktywne menu. 
+
+\begin{DoxyAuthor}{Author}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2024-\/11-\/13
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{app_8cpp_af4cc8f6d9deb89b3330b11b9587229f6}\label{app_8cpp_af4cc8f6d9deb89b3330b11b9587229f6} 
+\index{app.cpp@{app.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!app.cpp@{app.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{i\+Stream,  }\item[{\mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120d}{Menu\+Option}} \&}]{menu\+Option }\end{DoxyParamCaption})}
+
+
+
+Przeciążenie operatora \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} do wyboru opcji menu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\+Stream} & Strumień wejściowy. \\
+\hline
+{\em menu\+Option} & Opcja menu, którą należy ustawić. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Referencja do strumienia wejściowego. 
+\end{DoxyReturn}

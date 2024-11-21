@@ -1,0 +1,90 @@
+\doxysection{src/utils/array\+\_\+utils/array\+\_\+utils.cpp File Reference}
+\hypertarget{array__utils_8cpp}{}\label{array__utils_8cpp}\index{src/utils/array\_utils/array\_utils.cpp@{src/utils/array\_utils/array\_utils.cpp}}
+
+
+Implementacja funkcji pomocniczych do operacji na tablicach liczb całkowitych.  
+
+
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$random$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for array\+\_\+utils.\+cpp\+:
+% FIG 0
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{array__utils_8cpp_a1fde05f681a3ce9dc23cb11d2db05f18}{display\+Array}} (std\+::vector$<$ int $>$ arr)
+\begin{DoxyCompactList}\small\item\em Wyświetla zawartość tablicy na standardowym wyjściu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array__utils_8cpp_aa3d186a50bbe0e456a82869ceec37b2b}{randomly\+Shuffle\+Array}} (std\+::vector$<$ int $>$ \&arr)
+\begin{DoxyCompactList}\small\item\em Tasuje losowo elementy w tablicy. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array__utils_8cpp_ab2e0c3ee1ba2246598ecc30c65fd1469}{reverse\+Array}} (std\+::vector$<$ int $>$ \&arr)
+\begin{DoxyCompactList}\small\item\em Odwraca kolejność elementów w tablicy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementacja funkcji pomocniczych do operacji na tablicach liczb całkowitych. 
+
+\begin{DoxyAuthor}{Author}
+Mateusz Basiaga (\href{mailto:basmateusz@wp.pl}{\texttt{ basmateusz@wp.\+pl}}) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2024-\/11-\/14
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2024 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{array__utils_8cpp_a1fde05f681a3ce9dc23cb11d2db05f18}\label{array__utils_8cpp_a1fde05f681a3ce9dc23cb11d2db05f18} 
+\index{array\_utils.cpp@{array\_utils.cpp}!displayArray@{displayArray}}
+\index{displayArray@{displayArray}!array\_utils.cpp@{array\_utils.cpp}}
+\doxysubsubsection{\texorpdfstring{displayArray()}{displayArray()}}
+{\footnotesize\ttfamily void display\+Array (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{array }\end{DoxyParamCaption})}
+
+
+
+Wyświetla zawartość tablicy na standardowym wyjściu. 
+
+Funkcja wypisuje każdy element tablicy oddzielony spacją. Jeśli tablica jest pusta, zostanie wyświetlona odpowiednia informacja.
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & Tablica liczb całkowitych do wyświetlenia. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{array__utils_8cpp_aa3d186a50bbe0e456a82869ceec37b2b}\label{array__utils_8cpp_aa3d186a50bbe0e456a82869ceec37b2b} 
+\index{array\_utils.cpp@{array\_utils.cpp}!randomlyShuffleArray@{randomlyShuffleArray}}
+\index{randomlyShuffleArray@{randomlyShuffleArray}!array\_utils.cpp@{array\_utils.cpp}}
+\doxysubsubsection{\texorpdfstring{randomlyShuffleArray()}{randomlyShuffleArray()}}
+{\footnotesize\ttfamily void randomly\+Shuffle\+Array (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$ \&}]{array }\end{DoxyParamCaption})}
+
+
+
+Tasuje losowo elementy w tablicy. 
+
+Funkcja zmienia kolejność elementów w podanej tablicy na losową. Wykorzystuje algorytm tasowania Fishera-\/\+Yatesa.
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & Tablica liczb całkowitych, której elementy mają zostać przetasowane. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{array__utils_8cpp_ab2e0c3ee1ba2246598ecc30c65fd1469}\label{array__utils_8cpp_ab2e0c3ee1ba2246598ecc30c65fd1469} 
+\index{array\_utils.cpp@{array\_utils.cpp}!reverseArray@{reverseArray}}
+\index{reverseArray@{reverseArray}!array\_utils.cpp@{array\_utils.cpp}}
+\doxysubsubsection{\texorpdfstring{reverseArray()}{reverseArray()}}
+{\footnotesize\ttfamily void reverse\+Array (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$ \&}]{array }\end{DoxyParamCaption})}
+
+
+
+Odwraca kolejność elementów w tablicy. 
+
+Funkcja modyfikuje podaną tablicę, zmieniając kolejność jej elementów na odwrotną.
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & Tablica liczb całkowitych, której elementy mają zostać odwrócone. \\
+\hline
+\end{DoxyParams}

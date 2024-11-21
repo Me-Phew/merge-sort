@@ -1,0 +1,52 @@
+\doxysection{Random\+Number\+Generator Class Reference}
+\hypertarget{class_random_number_generator}{}\label{class_random_number_generator}\index{RandomNumberGenerator@{RandomNumberGenerator}}
+
+
+Klasa do generowania liczb losowych w określonym zakresie.  
+
+
+
+
+{\ttfamily \#include $<$random\+\_\+number\+\_\+generator.\+hpp$>$}
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_random_number_generator_a6078dcc0412152b8b83dbdf3d09ba727}{get\+Random\+Number}} (int min, int max)
+\begin{DoxyCompactList}\small\item\em Generuje liczbę losową z podanego zakresu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa do generowania liczb losowych w określonym zakresie. 
+
+Klasa zawiera metody umożliwiające generowanie liczb pseudolosowych w zadanym przedziale. Korzysta z mechanizmu inicjalizacji generatora za pomocą ziarna. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_random_number_generator_a6078dcc0412152b8b83dbdf3d09ba727}\label{class_random_number_generator_a6078dcc0412152b8b83dbdf3d09ba727} 
+\index{RandomNumberGenerator@{RandomNumberGenerator}!getRandomNumber@{getRandomNumber}}
+\index{getRandomNumber@{getRandomNumber}!RandomNumberGenerator@{RandomNumberGenerator}}
+\doxysubsubsection{\texorpdfstring{getRandomNumber()}{getRandomNumber()}}
+{\footnotesize\ttfamily int Random\+Number\+Generator\+::get\+Random\+Number (\begin{DoxyParamCaption}\item[{int}]{min,  }\item[{int}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Generuje liczbę losową z podanego zakresu. 
+
+Funkcja zwraca liczbę całkowitą losową z przedziału \mbox{[}min, max\mbox{]}. Jeśli generator nie został wcześniej zainicjalizowany, funkcja wywołuje {\ttfamily seed()}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em min} & Dolna granica zakresu (włącznie). \\
+\hline
+{\em max} & Górna granica zakresu (włącznie). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Liczba całkowita losowa z przedziału \mbox{[}min, max\mbox{]}. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/utils/random\+\_\+number\+\_\+generator/\mbox{\hyperlink{random__number__generator_8hpp}{random\+\_\+number\+\_\+generator.\+hpp}}\item 
+src/utils/random\+\_\+number\+\_\+generator/\mbox{\hyperlink{random__number__generator_8cpp}{random\+\_\+number\+\_\+generator.\+cpp}}\end{DoxyCompactItemize}

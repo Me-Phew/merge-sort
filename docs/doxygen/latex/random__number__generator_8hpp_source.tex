@@ -1,0 +1,28 @@
+\doxysection{random\+\_\+number\+\_\+generator.\+hpp}
+\hypertarget{random__number__generator_8hpp_source}{}\label{random__number__generator_8hpp_source}\index{src/utils/random\_number\_generator/random\_number\_generator.hpp@{src/utils/random\_number\_generator/random\_number\_generator.hpp}}
+\mbox{\hyperlink{random__number__generator_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#ifndef\ RANDOM\_NUMBER\_GENERATOR\_HPP}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ RANDOM\_NUMBER\_GENERATOR\_HPP}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_random_number_generator}{RandomNumberGenerator}}\ \{}
+\DoxyCodeLine{00018\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00019\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ isSeeded;\ }
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00022\ \ \ \mbox{\hyperlink{class_random_number_generator}{RandomNumberGenerator}}()\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00025\ \ \ \mbox{\hyperlink{class_random_number_generator}{RandomNumberGenerator}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_random_number_generator}{RandomNumberGenerator}}\&)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00028\ \ \ \mbox{\hyperlink{class_random_number_generator}{RandomNumberGenerator}}\&\ operator=(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_random_number_generator}{RandomNumberGenerator}}\&)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00035\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ seed();}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00046\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_random_number_generator_a6078dcc0412152b8b83dbdf3d09ba727}{getRandomNumber}}(\textcolor{keywordtype}{int}\ min,\ \textcolor{keywordtype}{int}\ max);}
+\DoxyCodeLine{00047\ \};}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ RANDOM\_NUMBER\_GENERATOR\_HPP\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}
