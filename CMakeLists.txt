@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(src/app src/merge_sorter src/utils)
 
+# Main executable
 # Create merge_sorter library
 add_library(merge_sorter
     src/merge_sorter/merge_sorter.cpp
@@ -41,4 +42,14 @@ if(PACKAGE_TESTS)
     enable_testing()
     include(GoogleTest)
     add_subdirectory(tests)
+
+    target_link_libraries(MergeSort PRIVATE merge_sorter)
+
+    add_library(random_number_generator
+        src/utils/random_number_generator/random_number_generator.cpp
+    )
+
+    target_include_directories(TestMergeSorter PRIVATE
+        ${CMAKE_SOURCE_DIR}/src/utils/random_number_generator
+    )
 endif()

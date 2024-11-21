@@ -1,11 +1,10 @@
 /**
  * @file app.cpp
- * @author Mateusz Basiaga (basmateusz@wp.pl)
- * @brief
+ * @author
+ * @brief Implementacja klasy App obsługującej operacje na liście liczb całkowitych poprzez interaktywne menu.
  * @date 2024-11-13
  *
- * @copyright Copyright (c) 2024
- *
+ * @copyright
  */
 
 #ifdef _WIN32
