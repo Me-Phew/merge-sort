@@ -1,6 +1,80 @@
 \newpage
-\section{Analiza problemu}		%2
-%Napisać gdzie używa się tego algorytmu
-%Opisać sposób działania programu/algorytmu
-%Napisać spsoób wykorzystania algorytmu po przez wykonanie przykładu (np. mnożenie macierzy - wykonać ręcznie przykład z mnożeniem macierzy pokazujący jak mnoży się macierz ręcznie)
-%Jeśli zadanie zakłada przedstawienie jakiegoś narzędzia (np. git, AI) należy opisać narzędzie
+\section{Analiza problemu}
+\label{sec:analiza-problemu}
+
+\subsection{Zastosowanie algorytmu sortowania przez scalanie}
+
+Algorytm sortowania przez scalanie (Merge Sort) jest jednym z najczęściej wykorzystywanych algorytmów do sortowania dużych zbiorów danych w informatyce. Jego główną zaletą jest stabilność i efektywność w przypadku dużych zbiorów danych. Jest to algorytm typu „dziel i zwyciężaj”, który dzieli zbiór na mniejsze podzbiory, a następnie scala je w sposób uporządkowany. Algorytm ten jest wykorzystywany \\ w różnych dziedzinach, takich jak:
+
+\begin{itemize}
+  \item Sortowanie dużych zbiorów danych w bazach danych.
+  \item Przetwarzanie danych w systemach rozproszonych, gdzie duże ilości danych muszą być uporządkowane przed dalszym przetwarzaniem.
+  \item Algorytmy związane z analizą danych, takie jak sortowanie wyników wyszukiwania.
+  \item Problemy związane z inżynierią oprogramowania, w których dane muszą być uporządkowane w sposób stabilny (np. przy sortowaniu użytkowników po wielu kryteriach).
+\end{itemize}
+
+W niniejszym projekcie zaimplementowano algorytm Merge Sort, który jest wykorzystywany do sortowania tablic liczb całkowitych.
+Program implementuje ten algorytm w języku C++, zapewniając jego elastyczność i możliwość testowania \\ w różnych scenariuszach.
+
+\subsection{Opis algorytmu sortowania przez scalanie}
+
+Algorytm Merge Sort działa na zasadzie podziału problemu na mniejsze podproblemy, co pozwala na efektywne sortowanie danych. Ogólny przebieg działania algorytmu przedstawia się następująco:
+
+\begin{enumerate}
+  \item Jeśli tablica ma więcej niż jeden element, dzielimy ją na dwie części (połowy).
+  \item Rekursywnie sortujemy każdą z części.
+  \item Po posortowaniu każdej z części, łączymy (scalamy) je w sposób uporządkowany w jedną, posortowaną tablicę.
+\end{enumerate}
+
+Przykład: Rozważmy tablicę liczb \texttt{[38, 27, 43, 3, 9, 82, 10]}. Algorytm Merge Sort wykonuje następujące kroki:
+
+\begin{enumerate}
+  \item Dzieli tablicę na dwie części: \texttt{[38, 27, 43]} i \texttt{[3, 9, 82, 10]}.
+  \item Każdą z części dzieli dalej, aż do uzyskania tablic jednowymiarowych:
+        \begin{itemize}
+          \item \texttt{[38, 27, 43]} → \texttt{[38, 27]} i \texttt{[43]} → \texttt{[38]} i \texttt{[27]} → \texttt{[38]} i \texttt{[27]}.
+          \item \texttt{[3, 9, 82, 10]} → \texttt{[3, 9]} i \texttt{[82, 10]} → \texttt{[3]} i \texttt{[9]} → \texttt{[3]} i \texttt{[9]} → \texttt{[82]} i \texttt{[10]}.
+        \end{itemize}
+  \item Następnie łączymy elementy w sposób uporządkowany:
+        \begin{itemize}
+          \item \texttt{[38]} i \texttt{[27]} → \texttt{[27, 38]}.
+          \item \texttt{[38, 27]} i \texttt{[43]} → \texttt{[27, 38, 43]}.
+          \item \texttt{[3]} i \texttt{[9]} → \texttt{[3, 9]}.
+          \item \texttt{[82]} i \texttt{[10]} → \texttt{[10, 82]}.
+          \item \texttt{[3, 9]} i \texttt{[10, 82]} → \texttt{[3, 9, 10, 82]}.
+        \end{itemize}
+  \item Na koniec scalamy dwie posortowane tablice:
+        \begin{itemize}
+          \item \texttt{[27, 38, 43]} i \texttt{[3, 9, 10, 82]} → \texttt{[3, 9, 10, 27, 38, 43, 82]}.
+        \end{itemize}
+\end{enumerate}
+
+Ostateczny wynik to posortowana tablica: \texttt{[3, 9, 10, 27, 38, 43, 82]}.
+
+\subsection{Sposób wykorzystania algorytmu w projekcie}
+
+W projekcie algorytm Merge Sort został zaimplementowany jako część klasy \texttt{MergeSorter}, której zadaniem jest sortowanie tablicy liczb całkowitych. Użytkownik może interaktywnie dodawać, usuwać lub tasować elementy w tablicy, a następnie uruchomić algorytm, aby posortować tablicę. Proces ten jest uproszczony do kilku kroków, które opisano poniżej.
+
+\begin{itemize}
+  \item Po uruchomieniu aplikacji użytkownik ma dostęp do menu, w którym może wybrać jedną z dostępnych operacji na tablicach.
+  \item Wybór opcji "Sortowanie" uruchamia algorytm Merge Sort, który wykonuje operację sortowania na aktualnej tablicy.
+  \item Użytkownik może także zainicjować generowanie losowej tablicy lub odwrócić kolejność elementów w tablicy, aby przeprowadzić sortowanie w różnych scenariuszach.
+  \item Po zakończeniu sortowania, wynikowa tablica zostaje wyświetlona na ekranie.
+\end{itemize}
+
+Przykład:
+1. Użytkownik generuje losową tablicę: \texttt{[38, 27, 43, 3, 9, 82, 10]}.
+2. Uruchamia sortowanie przez scalanie.
+3. Aplikacja wyświetla posortowaną tablicę: \texttt{[3, 9, 10, 27, 38, 43, 82]}.
+
+\subsection{Opis narzędzi i technologii użytych w projekcie}
+
+W projekcie zastosowano szereg narzędzi i technologii, które wspierają rozwój, testowanie oraz dokumentowanie aplikacji. Do głównych narzędzi należą:
+
+\begin{itemize}
+  \item \textbf{C++}: Język programowania użyty do implementacji algorytmu oraz aplikacji. C++ zapewnia wysoką wydajność, co jest istotne przy pracy z dużymi zbiorami danych.
+  \item \textbf{Google Test}: Framework do testowania jednostkowego w C++. Google Test umożliwia automatyczne uruchamianie testów oraz weryfikację poprawności działania algorytmu w różnych scenariuszach.
+  \item \textbf{CMake}: System budowania, który umożliwia generowanie plików konfiguracyjnych dla różnych środowisk kompilacji. CMake zapewnia elastyczność \\ w budowaniu projektu na różnych systemach operacyjnych.
+  \item \textbf{Doxygen}: Narzędzie do automatycznego generowania dokumentacji z komentarzy w kodzie. Doxygen pozwala na tworzenie dokumentacji technicznej \\ w formacie HTML lub PDF.
+  \item \textbf{GitHub Actions}: Narzędzie do automatyzacji procesów CI/CD. GitHub Actions służy do automatycznego uruchamiania testów, generowania dokumentacji i wdrażania aplikacji.
+\end{itemize}

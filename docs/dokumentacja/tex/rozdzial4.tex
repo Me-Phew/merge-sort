@@ -1,4 +1,52 @@
 \newpage
-\section{Implementacja}		%4
-%Opisać implementacje algorytmu/programu. Pokazać ciekawe fragmenty kodu
-%Opisać powstałe wyniki (algorytmu/nrzędzia)
+\section{Implementacja}
+W tej sekcji opisano implementację algorytmu Merge Sort, który jest głównym elementem projektu. Algorytm ten jest zaimplementowany w języku C++ i stanowi część aplikacji, która umożliwia operowanie na tablicach liczb całkowitych. Omówimy tu poszczególne komponenty projektu, przedstawiając kluczowe fragmenty kodu i wyniki uzyskane po jego uruchomieniu.
+
+\subsection{Główna struktura programu}
+
+Program został zaprojektowany z wykorzystaniem podejścia obiektowego. Główne klasy w projekcie to:
+
+\begin{itemize}
+  \item \textbf{MergeSorter} - zawiera implementację samego algorytmu Merge Sort.
+  \item \textbf{App} - odpowiedzialna za interakcję z użytkownikiem, umożliwiająca dodawanie, sortowanie i manipulowanie tablicami.
+  \item \textbf{RandomNumberGenerator} - generuje losowe liczby całkowite w zadanym zakresie.
+  \item \textbf{ArrayUtils} - zawiera pomocnicze funkcje operujące na tablicach, takie jak ich wyświetlanie, tasowanie, odwracanie itp.
+\end{itemize}
+
+Każda z tych klas została zaprojektowana zgodnie z zasadami hermetyzacji i modułowości, co pozwoliło na zachowanie przejrzystości kodu i łatwości w jego modyfikacji.
+
+\subsection{Algorytm Merge Sort}
+
+Implementacja algorytmu Merge Sort w klasie \texttt{MergeSorter} bazuje na klasycznej wersji algorytmu rekurencyjnego. Kluczowe metody tej klasy to:
+
+\begin{itemize}
+  \item \texttt{merge()} - funkcja odpowiedzialna za scalanie dwóch posortowanych tablic \\ w jedną.
+  \item \texttt{mergeSort()} - metoda rekurencyjna, która dzieli tablicę na mniejsze części, sortuje je, a następnie scala.
+  \item \texttt{sortArray()} - publiczna metoda interfejsu, która przygotowuje tablicę do posortowania, wywołując funkcje sortujące.
+\end{itemize}
+
+\newpage
+
+\subsubsection{Fragment kodu - Merge Sort}
+
+Na listingu \OznaczKod{mergeSort} przedstawiono kluczowy fragment kodu odpowiedzialny za implementację algorytmu Merge Sort:
+
+\lstinputlisting[caption=Funkcja mergeSort, label={lst:mergeSort}, language=C++]{kod/merge_sort.cpp}
+
+\texttt{merge()} jest funkcją scalającą dwie posortowane tablice w jedną posortowaną. \texttt{mergeSort()} to rekurencyjna funkcja, która dzieli tablicę na dwie części, wywołuje je rekurencyjnie oraz wywołuje funkcję scalania \texttt{merge()}.
+
+\subsection{Wyniki}
+
+Po zaimplementowaniu algorytmu Merge Sort, program został uruchomiony na różnych zestawach danych wejściowych. Oczekiwanym wynikiem jest prawidłowo posortowana tablica, niezależnie od początkowego układu elementów. Testy przeprowadzone na różnych tablicach, w tym na tablicach już posortowanych, w odwrotnej kolejności oraz zawierających duplikaty, potwierdziły, że algorytm działa zgodnie \\ z oczekiwaniami.
+
+\newpage
+
+\subsubsection{Fragment kodu - Test jednostkowy (losowa tablica)}
+
+Test jednostkowy weryfikuje poprawność działania algorytmu na dużej tablicy losowych liczb. Przy użyciu generatora pseudolosowego tworzona jest tablica, która następnie podlega sortowaniu. Test upewnia się, że po sortowaniu każda kolejna liczba w tablicy jest mniejsza bądź równa poprzedniej.
+
+\lstinputlisting[caption=Test algorytmu na losowej tablicy, label={lst:merge-sort-random-test}, language=C++]{kod/merge_sort_random_test.cpp}
+
+\OznaczKod{merge-sort-random-test} przedstawia szczegóły implementacji jednego z kluczowych testów jednostkowych. Korzysta on z klasy \texttt{RandomNumberGenerator} do tworzenia losowych danych wejściowych oraz klasy \texttt{MergeSorter} do sortowania. Dzięki temu możemy zweryfikować, że algorytm działa zgodnie z oczekiwaniami w przypadku dużej i zróżnicowanej tablicy.
+
+Test został uruchomiony w środowisku testowym Google Test, zapewniając wiarygodność i łatwość integracji w procesie ciągłej integracji.

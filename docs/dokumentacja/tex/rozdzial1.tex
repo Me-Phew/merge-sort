@@ -1,5 +1,37 @@
-\newpage
-\section{Ogólne określenie wymagań}		%1
-%Określenie celu pracy, co chcemy uzyskać, jakie przewidujemy wyniki
+\section{Ogólne określenie wymagań}
+\label{sec:ogolne-wymagania}
 
-\input{tex/template_tutorial.tex}
+Celem projektu jest implementacja i przetestowanie algorytmu sortowania przez scalanie (Merge Sort) w języku C++ w formie modułowego projektu.
+Projekt obejmuje nie tylko implementację samego algorytmu, ale również stworzenie dodatkowych funkcjonalności wspomagających obsługę tablic,
+a także opracowanie dokumentacji i procedur testowania.
+
+\subsection{Cel pracy}
+Głównym celem projektu jest:
+\begin{itemize}
+  \item Implementacja algorytmu sortowania przez scalanie w sposób modularny, \\ z podziałem na klasy i pliki źródłowe.
+  \item Zastosowanie dobrej praktyki programowania poprzez oddzielenie logiki aplikacji od interfejsu użytkownika.
+  \item Przeprowadzenie testów jednostkowych z wykorzystaniem frameworka Google Test w celu weryfikacji poprawności działania algorytmu w różnych scenariuszach.
+  \item Stworzenie interaktywnej aplikacji umożliwiającej użytkownikowi manipulowanie tablicami i testowanie działania algorytmu w czasie rzeczywistym.
+  \item Opracowanie szczegółowej dokumentacji projektu za pomocą narzędzi LaTeX i Doxygen.
+\end{itemize}
+
+\subsection{Zakładane wyniki}
+Oczekiwane efekty projektu to:
+\begin{itemize}
+  \item Sprawna i poprawna implementacja algorytmu Merge Sort, \\ który będzie w stanie skutecznie sortować zarówno małe, jak i bardzo duże tablice.
+  \item Zbiór testów jednostkowych pokrywających kluczowe przypadki użycia algorytmu, w tym tablice losowe, posortowane, odwrócone, zawierające liczby ujemne, duplikaty oraz przypadki graniczne, takie jak tablice puste czy jednoelementowe.
+  \item Dokumentacja użytkownika i programisty opisująca zarówno sposób korzystania z aplikacji, jak i techniczne aspekty implementacji oraz założenia projektowe.
+  \item Automatyzacja procesu testowania i budowania projektu dzięki zastosowaniu CMake, Ninja oraz GitHub Actions.
+  \item Wynikowy projekt, który może być uruchamiany na różnych systemach operacyjnych, takich jak Windows (z wykorzystaniem MINGW-w64) oraz Linux.
+\end{itemize}
+
+\subsection{Określenie ram projektowych}
+Projekt realizowany jest zgodnie z poniższymi wytycznymi:
+\begin{itemize}
+  \item Algorytm Merge Sort zostanie zaimplementowany jako osobna klasa \texttt{MergeSorter}, której funkcjonalności będą odpowiednio odseparowane od pozostałych modułów aplikacji.
+  \item Całość zostanie zaimplementowana z wykorzystaniem wzorców dobrych praktyk programistycznych, takich jak modularność, hermetyzacja kodu oraz dokumentowanie przy pomocy stylu Doxygen.
+  \item Testy jednostkowe pokrywające wszystkie krytyczne aspekty działania algorytmu zostaną umieszczone w pliku \texttt{merge\_sorter\_test.cpp}.
+  \item Dokumentacja będzie tworzona z użyciem szablonów i makr \texttt{LaTeX}, aby zapewnić spójność formatowania i estetyczny wygląd publikacji.
+\end{itemize}
+
+W dalszych rozdziałach omówiono szczegółowo implementację poszczególnych modułów projektu oraz uzyskane wyniki testów.

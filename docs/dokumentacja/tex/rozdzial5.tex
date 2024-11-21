@@ -1,3 +1,45 @@
 \newpage
-\section{Wnioski}	%5
-%Npisać wnioski końcowe z przeprowadzonego projektu, 
+\section{Wnioski}
+
+W ramach przeprowadzonego projektu udało się zrealizować pełną implementację algorytmu sortowania przez scalanie (Merge Sort),
+który został zastosowany do sortowania tablic liczb całkowitych. Aplikacja została zaprojektowana zgodnie z zasadami obiektowości,
+co pozwoliło na zachowanie elastyczności i łatwości w rozbudowie oraz utrzymaniu kodu. Wszystkie operacje na tablicach, takie jak dodawanie elementów,
+sortowanie, tasowanie czy odwracanie, zostały zaimplementowane w sposób modularny, co ułatwia późniejsze modyfikacje oraz rozbudowę aplikacji.
+
+Najważniejszym elementem tego projektu, poza samą implementacją algorytmu, było zastosowanie testów jednostkowych.
+Testy te stanowiły kluczowy element procesu weryfikacji poprawności działania algorytmu oraz innych funkcji aplikacji.
+Dzięki testom jednostkowym udało się upewnić, że algorytm działa poprawnie w różnych przypadkach granicznych,
+takich jak tablice puste, posortowane, odwrotnie posortowane czy zawierające duplikaty.
+Testy te są niezbędnym narzędziem w procesie zapewniania jakości oprogramowania, ponieważ pozwalają na szybkie wykrycie błędów oraz weryfikację,
+że zmiany wprowadzone w kodzie nie wprowadzają nowych problemów.
+
+\subsection{Zastosowanie testów jednostkowych}
+
+Testy jednostkowe stanowiły fundament procesu rozwoju projektu.
+Dzięki zastosowaniu frameworka Google Test, możliwe było automatyczne testowanie każdego z komponentów aplikacji, co zapewniło,
+że każda funkcjonalność działa zgodnie \\ z oczekiwaniami.
+Przeprowadzone testy jednostkowe obejmowały zarówno proste przypadki, jak i bardziej złożone, takie jak testowanie dużych tablic oraz tablic z duplikatami.
+Użycie testów jednostkowych pozwoliło także na szybkie wykrycie problemów, które mogłyby pojawić się w przypadku modyfikacji kodu,
+zapewniając tym samym większą stabilność i niezawodność aplikacji.
+
+\newpage
+
+\subsection{Podsumowanie wyników}
+
+Algorytm Merge Sort, implementowany w ramach tego projektu, działa poprawnie na różnych zestawach danych wejściowych.
+Został on skutecznie zaimplementowany i przetestowany, a jego działanie zostało potwierdzone przez pozytywne wyniki testów jednostkowych.
+Testy wykazały, że algorytm działa zgodnie z oczekiwaniami, niezależnie od układu początkowego tablicy.
+Algorytm efektywnie radzi sobie z tablicami o dużych rozmiarach oraz tymi zawierającymi duplikaty, co potwierdza jego poprawność.
+
+\subsection{Wnioski końcowe}
+
+Projekt ten pokazał, jak ważne jest stosowanie testów jednostkowych w procesie programowania.
+Dzięki testom jednostkowym, cały projekt zyskał większą stabilność, a błędy zostały szybko zidentyfikowane i naprawione.
+Przeprowadzenie testów na różnych zestawach danych umożliwiło wyciągnięcie wniosków na temat działania algorytmu w różnych scenariuszach, a także zapewniło,
+że algorytm spełnia wszystkie założenia funkcjonalne.
+
+Z punktu widzenia implementacji,
+algorytm Merge Sort sprawdził się jako skuteczne narzędzie do sortowania tablic.
+Jego złożoność czasowa \(\mathcal{O}(n \log n)\) okazała się odpowiednia do sortowania dużych zbiorów danych,
+co potwierdziły testy na tablicach o dużej liczbie elementów. Dodatkowo, zastosowanie podejścia rekurencyjnego w połączeniu z metodą scalania zapewnia,
+że algorytm działa w sposób wydajny, \\ a jego implementacja jest stosunkowo prosta do zrozumienia i utrzymania.
