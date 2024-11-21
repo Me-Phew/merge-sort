@@ -1,9 +1,7 @@
 <map id="src/utils/random_number_generator/random_number_generator.hpp" name="src/utils/random_number_generator/random_number_generator.hpp">
-<area shape="rect" id="Node000001" title="Deklaracja klasy RandomNumberGenerator do generowania liczb losowych." alt="" coords="143,5,322,61"/>
+<area shape="rect" id="Node000001" title="Deklaracja klasy RandomNumberGenerator do generowania liczb losowych." alt="" coords="58,5,237,61"/>
 <area shape="rect" id="Node000002" href="$app_8cpp.html" title="Implementacja klasy App obsługującej operacje na liście liczb całkowitych poprzez interaktywne menu." alt="" coords="5,124,119,150"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,72,84,126,81,121,172,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,75,74,125,70,122,113,71"/>
 <area shape="rect" id="Node000003" href="$random__number__generator_8cpp.html" title="Implementacja generatora liczb losowych." alt="" coords="143,109,322,165"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,77,235,108,230,108,230,77"/>
-<area shape="rect" id="Node000004" href="$merge__sorter__test_8cpp.html" title="Zbiór testów jednostkowych dla klasy MergeSorter." alt="" coords="346,116,476,157"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="295,67,378,114,376,118,292,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,71,212,107,208,110,178,75"/>
 </map>

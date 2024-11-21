@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['1_2015_200_0',['Release 1.15.0',['../md_extern_2googletest_2README.html#autotoc_md410',1,'']]],
-  ['15_200_1',['Release 1.15.0',['../md_extern_2googletest_2README.html#autotoc_md410',1,'']]]
+  ['c_0',['Implementacja algorytmu sortowania przez scalanie w C++',['../md_README.html#autotoc_md0',1,'']]],
+  ['clear_5farray_1',['CLEAR_ARRAY',['../app_8hpp.html#a5be5e47a3042bc91460d05e47f32120dac8284d89d3bd9f8f0a801abee92e34de',1,'app.hpp']]]
 ];

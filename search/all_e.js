@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['key_0',['key',['../md_extern_2googletest_2docs_2reference_2testing.html#key',1,'']]],
-  ['kindof_1',['KindOf',['../structtesting_1_1internal_1_1KindOf.html',1,'testing::internal']]],
-  ['knowing_20when_20to_20expect_2',['Knowing When to Expect',['../md_extern_2googletest_2docs_2gmock__cook__book.html#UseOnCall',1,'']]],
-  ['known_20limitations_3',['Known Limitations',['../md_extern_2googletest_2docs_2primer.html#autotoc_md234',1,'']]]
+  ['⚖️_20licencja_20a_0',['&lt;a name=&quot;license&quot;&gt;⚖️ Licencja&lt;/a&gt;',['../md__r_e_a_d_m_e.html#autotoc_md1',1,'']]]
 ];

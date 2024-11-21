@@ -1,9 +1,7 @@
 <map id="src/merge_sorter/merge_sorter.hpp" name="src/merge_sorter/merge_sorter.hpp">
-<area shape="rect" id="Node000001" title="Deklaracja klasy MergeSorter do sortowania tablicy za pomocą algorytmu merge sort." alt="" coords="142,5,302,46"/>
+<area shape="rect" id="Node000001" title="Deklaracja klasy MergeSorter do sortowania tablicy za pomocą algorytmu merge sort." alt="" coords="62,5,222,46"/>
 <area shape="rect" id="Node000002" href="$app_8cpp.html" title="Implementacja klasy App obsługującej operacje na liście liczb całkowitych poprzez interaktywne menu." alt="" coords="5,102,119,127"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,56,86,103,83,99,171,51"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,59,75,103,71,99,112,56"/>
 <area shape="rect" id="Node000003" href="$merge__sorter_8cpp.html" title="Implementacja klasy MergeSorter do sortowania tablicy liczb całkowitych za pomocą algorytmu merge sor..." alt="" coords="142,94,302,135"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,62,225,94,219,94,219,62"/>
-<area shape="rect" id="Node000004" href="$merge__sorter__test_8cpp.html" title="Zbiór testów jednostkowych dla klasy MergeSorter." alt="" coords="326,94,456,135"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="275,51,354,91,352,96,273,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,56,206,92,202,95,168,59"/>
 </map>

@@ -1,9 +1,0 @@
-<map id="gtest_xml_test_utils.GTestXMLTestCase" name="gtest_xml_test_utils.GTestXMLTestCase">
-<area shape="rect" id="Node000001" title=" " alt="" coords="223,39,399,79"/>
-<area shape="rect" id="Node000003" href="$classgtest__xml__outfiles__test_1_1GTestXMLOutFilesTest.html" title=" " alt="" coords="447,5,639,46"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="414,41,446,37,447,42,415,47"/>
-<area shape="rect" id="Node000004" href="$classgtest__xml__output__unittest_1_1GTestXMLOutputUnitTest.html" title=" " alt="" coords="456,71,630,111"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="415,71,456,76,455,82,414,76"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,46,175,72"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,56,222,56,222,62,190,62"/>
-</map>
