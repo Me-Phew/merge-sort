@@ -1070,14 +1070,18 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which Doxygen is
 # run.
 
-EXCLUDE                =
+EXCLUDE                = extern/googletest \
+                         googletest
+
+INPUT -= extern/googletest \
+         googletest
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
 # from the input.
 # The default value is: NO.
 
-EXCLUDE_SYMLINKS       = NO
+EXCLUDE_SYMLINKS       = YES
 
 # If the value of the INPUT tag contains directories, you can use the
 # EXCLUDE_PATTERNS tag to specify one or more wildcard patterns to exclude
@@ -1086,7 +1090,16 @@ EXCLUDE_SYMLINKS       = NO
 # Note that the wildcards are matched against the file with absolute path, so to
 # exclude all test directories for example use the pattern */test/*
 
-EXCLUDE_PATTERNS       = */node_modules/*
+EXCLUDE_PATTERNS       = */node_modules/* \
+                         */extern/* \
+                         */tests/* \
+                         */test/* \
+                         */extern/googletest/* \
+                         */googletest/* \
+                         */gtest/* \
+                         */gmock/* \
+                         */third_party/googletest/* \
+                         */build/*                  
 
 # The EXCLUDE_SYMBOLS tag can be used to specify one or more symbol names
 # (namespaces, classes, functions, etc.) that should be excluded from the
@@ -1094,7 +1107,9 @@ EXCLUDE_PATTERNS       = */node_modules/*
 # wildcard * is used, a substring. Examples: ANamespace, AClass,
 # ANamespace::AClass, ANamespace::*Test
 
-EXCLUDE_SYMBOLS        =
+EXCLUDE_SYMBOLS        = testing::* \
+                        *Test \
+                        *_test
 
 # The EXAMPLE_PATH tag can be used to specify one or more files or directories
 # that contain example code fragments that are included (see the \include

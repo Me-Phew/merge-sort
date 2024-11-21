@@ -1,0 +1,122 @@
+\doxysection{src/app/app.hpp File Reference}
+\hypertarget{app_8hpp}{}\label{app_8hpp}\index{src/app/app.hpp@{src/app/app.hpp}}
+
+
+Plik nagłówkowy aplikacji obsługującej listę elementów z różnymi operacjami na tablicy.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for app.\+hpp\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_app}{App}}
+\begin{DoxyCompactList}\small\item\em Klasa reprezentująca aplikację obsługującą listę. Umożliwia operacje takie jak dodawanie, usuwanie i wyświetlanie elementów oraz sortowanie listy poprzez menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120d}{Menu\+Option}} \{ \newline
+\mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120da53181643edfa4d6f709dd9023e1cd1e7}{INSERT\+\_\+\+ITEM}} = 1
+, \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120da956feabf854fbf00a2f193a60f469dcd}{DISPLAY\+\_\+\+ARRAY}}
+, \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120daf61ee55443e8cada461415405875c86f}{GENERATE\+\_\+\+RANDOM\+\_\+\+ARRAY}}
+, \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120da8d1832a3eb6e16e261252686c6ded901}{SHUFFLE\+\_\+\+ARRAY}}
+, \newline
+\mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120daf8865e5ea7c996b57fe7b38aa3345ee6}{REVERSE\+\_\+\+ARRAY}}
+, \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120da95bac9e68c2902aa7d47fca15f9646b3}{SORT\+\_\+\+ARRAY}}
+, \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120dac8284d89d3bd9f8f0a801abee92e34de}{CLEAR\+\_\+\+ARRAY}}
+, \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120da7a10b5d68d31711288e1fe0fa17dbf4f}{EXIT}}
+ \}
+\begin{DoxyCompactList}\small\item\em Wyliczenie opcji dostępnych w menu. Definiuje różne operacje, które użytkownik może wybrać w aplikacji. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::istream \& \mbox{\hyperlink{app_8hpp_af4cc8f6d9deb89b3330b11b9587229f6}{operator$>$$>$}} (std\+::istream \&i\+Stream, \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120d}{Menu\+Option}} \&menu\+Option)
+\begin{DoxyCompactList}\small\item\em Przeciążenie operatora \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} do wyboru opcji menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Plik nagłówkowy aplikacji obsługującej listę elementów z różnymi operacjami na tablicy. 
+
+\begin{DoxyAuthor}{Author}
+Mateusz Basiaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2024-\/11-\/13
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2024 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{app_8hpp_a5be5e47a3042bc91460d05e47f32120d}\label{app_8hpp_a5be5e47a3042bc91460d05e47f32120d} 
+\index{app.hpp@{app.hpp}!MenuOption@{MenuOption}}
+\index{MenuOption@{MenuOption}!app.hpp@{app.hpp}}
+\doxysubsubsection{\texorpdfstring{MenuOption}{MenuOption}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120d}{Menu\+Option}}}
+
+
+
+Wyliczenie opcji dostępnych w menu. Definiuje różne operacje, które użytkownik może wybrać w aplikacji. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{INSERT\_ITEM@{INSERT\_ITEM}!app.hpp@{app.hpp}}\index{app.hpp@{app.hpp}!INSERT\_ITEM@{INSERT\_ITEM}}}\Hypertarget{app_8hpp_a5be5e47a3042bc91460d05e47f32120da53181643edfa4d6f709dd9023e1cd1e7}\label{app_8hpp_a5be5e47a3042bc91460d05e47f32120da53181643edfa4d6f709dd9023e1cd1e7} 
+INSERT\+\_\+\+ITEM&Dodawanie elementu do tablicy. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DISPLAY\_ARRAY@{DISPLAY\_ARRAY}!app.hpp@{app.hpp}}\index{app.hpp@{app.hpp}!DISPLAY\_ARRAY@{DISPLAY\_ARRAY}}}\Hypertarget{app_8hpp_a5be5e47a3042bc91460d05e47f32120da956feabf854fbf00a2f193a60f469dcd}\label{app_8hpp_a5be5e47a3042bc91460d05e47f32120da956feabf854fbf00a2f193a60f469dcd} 
+DISPLAY\+\_\+\+ARRAY&Wyświetlanie zawartości tablicy. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GENERATE\_RANDOM\_ARRAY@{GENERATE\_RANDOM\_ARRAY}!app.hpp@{app.hpp}}\index{app.hpp@{app.hpp}!GENERATE\_RANDOM\_ARRAY@{GENERATE\_RANDOM\_ARRAY}}}\Hypertarget{app_8hpp_a5be5e47a3042bc91460d05e47f32120daf61ee55443e8cada461415405875c86f}\label{app_8hpp_a5be5e47a3042bc91460d05e47f32120daf61ee55443e8cada461415405875c86f} 
+GENERATE\+\_\+\+RANDOM\+\_\+\+ARRAY&Generowanie losowej tablicy liczb. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SHUFFLE\_ARRAY@{SHUFFLE\_ARRAY}!app.hpp@{app.hpp}}\index{app.hpp@{app.hpp}!SHUFFLE\_ARRAY@{SHUFFLE\_ARRAY}}}\Hypertarget{app_8hpp_a5be5e47a3042bc91460d05e47f32120da8d1832a3eb6e16e261252686c6ded901}\label{app_8hpp_a5be5e47a3042bc91460d05e47f32120da8d1832a3eb6e16e261252686c6ded901} 
+SHUFFLE\+\_\+\+ARRAY&Tasowanie elementów tablicy. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{REVERSE\_ARRAY@{REVERSE\_ARRAY}!app.hpp@{app.hpp}}\index{app.hpp@{app.hpp}!REVERSE\_ARRAY@{REVERSE\_ARRAY}}}\Hypertarget{app_8hpp_a5be5e47a3042bc91460d05e47f32120daf8865e5ea7c996b57fe7b38aa3345ee6}\label{app_8hpp_a5be5e47a3042bc91460d05e47f32120daf8865e5ea7c996b57fe7b38aa3345ee6} 
+REVERSE\+\_\+\+ARRAY&Odwracanie kolejności elementów w tablicy. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SORT\_ARRAY@{SORT\_ARRAY}!app.hpp@{app.hpp}}\index{app.hpp@{app.hpp}!SORT\_ARRAY@{SORT\_ARRAY}}}\Hypertarget{app_8hpp_a5be5e47a3042bc91460d05e47f32120da95bac9e68c2902aa7d47fca15f9646b3}\label{app_8hpp_a5be5e47a3042bc91460d05e47f32120da95bac9e68c2902aa7d47fca15f9646b3} 
+SORT\+\_\+\+ARRAY&Sortowanie tablicy. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CLEAR\_ARRAY@{CLEAR\_ARRAY}!app.hpp@{app.hpp}}\index{app.hpp@{app.hpp}!CLEAR\_ARRAY@{CLEAR\_ARRAY}}}\Hypertarget{app_8hpp_a5be5e47a3042bc91460d05e47f32120dac8284d89d3bd9f8f0a801abee92e34de}\label{app_8hpp_a5be5e47a3042bc91460d05e47f32120dac8284d89d3bd9f8f0a801abee92e34de} 
+CLEAR\+\_\+\+ARRAY&Czyszczenie zawartości tablicy. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXIT@{EXIT}!app.hpp@{app.hpp}}\index{app.hpp@{app.hpp}!EXIT@{EXIT}}}\Hypertarget{app_8hpp_a5be5e47a3042bc91460d05e47f32120da7a10b5d68d31711288e1fe0fa17dbf4f}\label{app_8hpp_a5be5e47a3042bc91460d05e47f32120da7a10b5d68d31711288e1fe0fa17dbf4f} 
+EXIT&Zakończenie działania aplikacji. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{app_8hpp_af4cc8f6d9deb89b3330b11b9587229f6}\label{app_8hpp_af4cc8f6d9deb89b3330b11b9587229f6} 
+\index{app.hpp@{app.hpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!app.hpp@{app.hpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{i\+Stream,  }\item[{\mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120d}{Menu\+Option}} \&}]{menu\+Option }\end{DoxyParamCaption})}
+
+
+
+Przeciążenie operatora \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} do wyboru opcji menu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\+Stream} & Strumień wejściowy. \\
+\hline
+{\em menu\+Option} & Opcja menu, którą należy ustawić. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Referencja do strumienia wejściowego. 
+\end{DoxyReturn}

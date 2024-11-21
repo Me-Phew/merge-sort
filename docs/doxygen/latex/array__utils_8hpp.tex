@@ -1,0 +1,89 @@
+\doxysection{src/utils/array\+\_\+utils/array\+\_\+utils.hpp File Reference}
+\hypertarget{array__utils_8hpp}{}\label{array__utils_8hpp}\index{src/utils/array\_utils/array\_utils.hpp@{src/utils/array\_utils/array\_utils.hpp}}
+
+
+Deklaracja funkcji narzędziowych do operacji na tablicach liczb całkowitych.  
+
+
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for array\+\_\+utils.\+hpp\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{array__utils_8hpp_ad9d955f5e41654fdc623b1e2705da3e0}{display\+Array}} (std\+::vector$<$ int $>$ array)
+\begin{DoxyCompactList}\small\item\em Wyświetla zawartość tablicy na standardowym wyjściu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array__utils_8hpp_af4ae8e353f907e8a06b4cac81afdeef0}{randomly\+Shuffle\+Array}} (std\+::vector$<$ int $>$ \&array)
+\begin{DoxyCompactList}\small\item\em Tasuje losowo elementy w tablicy. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{array__utils_8hpp_acbced105820d9c4d0bb93503f51f9791}{reverse\+Array}} (std\+::vector$<$ int $>$ \&array)
+\begin{DoxyCompactList}\small\item\em Odwraca kolejność elementów w tablicy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Deklaracja funkcji narzędziowych do operacji na tablicach liczb całkowitych. 
+
+\begin{DoxyAuthor}{Author}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2024-\/11-\/14
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2024 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{array__utils_8hpp_ad9d955f5e41654fdc623b1e2705da3e0}\label{array__utils_8hpp_ad9d955f5e41654fdc623b1e2705da3e0} 
+\index{array\_utils.hpp@{array\_utils.hpp}!displayArray@{displayArray}}
+\index{displayArray@{displayArray}!array\_utils.hpp@{array\_utils.hpp}}
+\doxysubsubsection{\texorpdfstring{displayArray()}{displayArray()}}
+{\footnotesize\ttfamily void display\+Array (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{array }\end{DoxyParamCaption})}
+
+
+
+Wyświetla zawartość tablicy na standardowym wyjściu. 
+
+Funkcja wypisuje każdy element tablicy oddzielony spacją. Jeśli tablica jest pusta, zostanie wyświetlona odpowiednia informacja.
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & Tablica liczb całkowitych do wyświetlenia. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{array__utils_8hpp_af4ae8e353f907e8a06b4cac81afdeef0}\label{array__utils_8hpp_af4ae8e353f907e8a06b4cac81afdeef0} 
+\index{array\_utils.hpp@{array\_utils.hpp}!randomlyShuffleArray@{randomlyShuffleArray}}
+\index{randomlyShuffleArray@{randomlyShuffleArray}!array\_utils.hpp@{array\_utils.hpp}}
+\doxysubsubsection{\texorpdfstring{randomlyShuffleArray()}{randomlyShuffleArray()}}
+{\footnotesize\ttfamily void randomly\+Shuffle\+Array (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$ \&}]{array }\end{DoxyParamCaption})}
+
+
+
+Tasuje losowo elementy w tablicy. 
+
+Funkcja zmienia kolejność elementów w podanej tablicy na losową. Wykorzystuje algorytm tasowania Fishera-\/\+Yatesa.
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & Tablica liczb całkowitych, której elementy mają zostać przetasowane. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{array__utils_8hpp_acbced105820d9c4d0bb93503f51f9791}\label{array__utils_8hpp_acbced105820d9c4d0bb93503f51f9791} 
+\index{array\_utils.hpp@{array\_utils.hpp}!reverseArray@{reverseArray}}
+\index{reverseArray@{reverseArray}!array\_utils.hpp@{array\_utils.hpp}}
+\doxysubsubsection{\texorpdfstring{reverseArray()}{reverseArray()}}
+{\footnotesize\ttfamily void reverse\+Array (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$ \&}]{array }\end{DoxyParamCaption})}
+
+
+
+Odwraca kolejność elementów w tablicy. 
+
+Funkcja modyfikuje podaną tablicę, zmieniając kolejność jej elementów na odwrotną.
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & Tablica liczb całkowitych, której elementy mają zostać odwrócone. \\
+\hline
+\end{DoxyParams}

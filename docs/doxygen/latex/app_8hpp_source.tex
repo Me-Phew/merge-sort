@@ -1,0 +1,59 @@
+\doxysection{app.\+hpp}
+\hypertarget{app_8hpp_source}{}\label{app_8hpp_source}\index{src/app/app.hpp@{src/app/app.hpp}}
+\mbox{\hyperlink{app_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#ifndef\ APP\_HPP}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ APP\_HPP}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120d}{MenuOption}}\ \{}
+\DoxyCodeLine{00019\ \ \ \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120da53181643edfa4d6f709dd9023e1cd1e7}{INSERT\_ITEM}}\ =\ 1,\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00020\ \ \ \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120da956feabf854fbf00a2f193a60f469dcd}{DISPLAY\_ARRAY}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00021\ \ \ \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120daf61ee55443e8cada461415405875c86f}{GENERATE\_RANDOM\_ARRAY}},\ \ \ \ \ \ \ }
+\DoxyCodeLine{00022\ \ \ \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120da8d1832a3eb6e16e261252686c6ded901}{SHUFFLE\_ARRAY}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00023\ \ \ \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120daf8865e5ea7c996b57fe7b38aa3345ee6}{REVERSE\_ARRAY}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00024\ \ \ \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120da95bac9e68c2902aa7d47fca15f9646b3}{SORT\_ARRAY}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00025\ \ \ \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120dac8284d89d3bd9f8f0a801abee92e34de}{CLEAR\_ARRAY}},\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00026\ \ \ \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120da7a10b5d68d31711288e1fe0fa17dbf4f}{EXIT}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00027\ \};}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00033\ std::istream\&\ \mbox{\hyperlink{app_8hpp_af4cc8f6d9deb89b3330b11b9587229f6}{operator>>}}(std::istream\&\ iStream,\ \mbox{\hyperlink{app_8hpp_a5be5e47a3042bc91460d05e47f32120d}{MenuOption}}\&\ menuOption);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00037\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_app}{App}}\ \{}
+\DoxyCodeLine{00038\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00039\ \ \ \textcolor{keyword}{static}\ std::vector<int>\ array;\ }
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00042\ \ \ \mbox{\hyperlink{class_app}{App}}()\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00045\ \ \ \mbox{\hyperlink{class_app}{App}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_app}{App}}\&)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00048\ \ \ \mbox{\hyperlink{class_app}{App}}\&\ operator=(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_app}{App}}\&)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00052\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ mainMenu();}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00056\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ handleInsertItem();}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00059\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ handleDisplayArray();}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00063\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ handleGenerateRandomArray();}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00066\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ handleShuffleArray();}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00070\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ handleReverseArray();}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00074\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ handleClearArray();}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00078\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ handleSortArray();}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00083\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ handleExit();}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00090\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_app_a8d27eeb51b813760dc39425d7a9a37e2}{run}}();}
+\DoxyCodeLine{00091\ \};}
+\DoxyCodeLine{00092\ }
+\DoxyCodeLine{00093\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ APP\_HPP\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}
