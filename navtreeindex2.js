@@ -119,6 +119,8 @@ var NAVTREEINDEX2 =
 "internal_2custom_2gmock-matchers_8h_source.html":[30,0,0,0,0,0,0,0,0,1],
 "internal_2custom_2gtest-printers_8h_source.html":[30,0,0,0,1,0,0,0,0,1],
 "internal_2custom_2gtest_8h_source.html":[30,0,0,0,1,0,0,0,0,2],
+"main_8cpp.html":[30,0,1,3],
+"main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[30,0,1,3,0],
 "md_README.html":[27],
 "md_README.html#autotoc_md420":[27,0],
 "md_extern_2googletest_2CONTRIBUTING.html":[0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "md_extern_2googletest_2docs_2faq.html#autotoc_md98":[3,16],
 "md_extern_2googletest_2docs_2faq.html#autotoc_md99":[3,17],
 "md_extern_2googletest_2docs_2gmock__cheat__sheet.html":[4],
-"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#ActionList":[4,5],
-"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#CardinalityList":[4,6],
-"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#ExpectCall":[4,3]
+"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#ActionList":[4,5]
 };

@@ -687,8 +687,8 @@ var NAVTREEINDEX =
 "annotated.html",
 "classgoogletest-uninitialized-test_1_1GTestUninitializedTest.html",
 "classtesting_1_1internal_1_1ValuesInIteratorRangeGenerator.html",
-"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#MatcherList",
-"md_extern_2googletest_2docs_2reference_2testing.html#RUN_ALL_TESTS",
+"md_extern_2googletest_2docs_2gmock__cheat__sheet.html#CardinalityList",
+"md_extern_2googletest_2docs_2reference_2testing.html#PrintToStringParamName",
 "structPredFormatFunctor3.html"
 ];
 

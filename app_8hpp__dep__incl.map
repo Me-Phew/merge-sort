@@ -2,6 +2,6 @@
 <area shape="rect" id="Node000001" title="Plik nagłówkowy aplikacji obsługującej listę elementów z różnymi operacjami na tablicy." alt="" coords="69,5,183,31"/>
 <area shape="rect" id="Node000002" href="$app_8cpp.html" title="Implementacja klasy App obsługującej operacje na liście liczb całkowitych poprzez interaktywne menu." alt="" coords="5,79,119,105"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,44,75,80,71,77,103,40"/>
-<area shape="rect" id="Node000003" href="$src_2main_8cpp.html" title="Punkt wejścia do aplikacji." alt="" coords="142,79,238,105"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html" title="Punkt wejścia do aplikacji." alt="" coords="142,79,238,105"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,40,181,77,177,80,145,44"/>
 </map>
